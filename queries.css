@@ -1,0 +1,244 @@
+@media (max-width: 84em) {
+  .hero {
+    max-width: 120rem;
+  }
+}
+
+@media (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
+  .testimonial-text {
+    font-size: 1.6rem;
+  }
+
+  .header {
+    padding: 0 3.2rem;
+  }
+
+  .heading-primary {
+    font-size: 4rem;
+  }
+  .card-desc {
+    font-size: 1.2rem;
+  }
+  .secondary-description {
+    font-size: 1.6rem;
+  }
+  .heading-secondary {
+    font-size: 3.5rem;
+  }
+  .heading-secondary {
+    font-size: 3.5rem;
+  }
+  .about-desc {
+    font-size: 1.5rem;
+  }
+  .about-me {
+    margin-top: 0;
+  }
+  .testimonial-container {
+    padding: 9.6rem 3.2rem;
+  }
+  .heading-about {
+    font-size: 3.5rem;
+  }
+  .heading-about {
+    font-size: 3.5rem;
+  }
+  .ok {
+    margin-bottom: 3rem;
+  }
+  .cti {
+    margin-bottom: 3rem;
+  }
+  .section-hero {
+    padding: 6.8rem 0 15.6rem 0;
+  }
+  .card {
+    padding: 3.6rem 3.4rem;
+  }
+}
+
+@media (max-width: 59em) {
+  html {
+    font-size: 50%;
+  }
+  .hero {
+    grid-template-columns: 1fr;
+    padding: 0 8rem;
+  }
+  .img {
+    width: 60%;
+  }
+  .hero-text {
+    text-align: center;
+  }
+  .hero-img {
+    text-align: center;
+  }
+  .hero {
+    gap: 6rem;
+  }
+  .card {
+    padding: 2.4rem 3.2rem 3.2rem 3.2rem;
+  }
+  .card-padd {
+    padding: 0.2rem 2.3rem 0.8rem 3.8rem;
+  }
+  .section-hero {
+    padding: 6.8rem 0 6.6rem 0;
+  }
+  .section-testimonials {
+    grid-template-columns: 1fr;
+  }
+  .gallery {
+    grid-template-columns: repeat(3, 2fr);
+    padding: 5.6rem;
+  }
+  .cti {
+    margin-top: 8rem;
+  }
+  .about-me {
+    margin-bottom: 9rem;
+  }
+  .btn-mobile-nav {
+    display: block;
+    z-index: 9999;
+  }
+  .navigation {
+    background-color: rgba(255, 255, 255, 0.97);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    transform: translateX(100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease-in;
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+  }
+
+  .nav-open .icon-mobile-nav[name="close-outline"] {
+    display: block;
+  }
+  .nav-open .icon-mobile-nav[name="menu-outline"] {
+    display: none;
+  }
+
+  .nav-open .navigation {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translateX(0);
+  }
+
+  .navigation-list {
+    flex-direction: column;
+    gap: 4.8rem;
+  }
+  .main-nav:link,
+  .main-nav:visited {
+    font-size: 3rem;
+  }
+}
+
+/* nav-open */
+
+@media (max-width: 44em) {
+  .cards {
+    display: block;
+    text-align: center;
+  }
+  .card {
+    padding: 2.4rem 3rem;
+  }
+  .section-hero {
+    padding: 2.8rem 0 2.6rem 0;
+  }
+
+  .card {
+    margin-bottom: 5rem;
+  }
+  .card-padd {
+    padding: 1.2rem 14.3rem 0.8rem 14.3rem;
+  }
+  .service-main {
+    padding: 1rem 0 4.4rem;
+  }
+  .about-me {
+    margin-top: 7rem;
+    display: block;
+  }
+  .about-img {
+    text-align: center;
+    margin-bottom: 5rem;
+  }
+  .img {
+    width: 55%;
+  }
+  .about-desc {
+    font-size: 1.6rem;
+  }
+  .secondary-description {
+    font-size: 1.8rem;
+  }
+  .section-hero {
+    padding: 2.8rem 0 9.6rem 0;
+  }
+  .footer {
+    margin-top: 9rem;
+  }
+
+  .service-main {
+    display: block;
+  }
+  .heading-secondary {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  .heading-about {
+    text-align: center;
+  }
+  .subheading {
+    text-align: center;
+  }
+}
+
+@media (max-width: 34em) {
+  .hero {
+    padding: 0 3.2rem;
+  }
+  .section-hero {
+    padding: 2.4rem 0 6.4rem 0;
+  }
+
+  .btn:link,
+  .btn:visited {
+    padding: 2.4rem 1.6rem;
+  }
+
+  .img {
+    width: 80%;
+  }
+  .logos img {
+    height: 2.8rem;
+  }
+  .card-padd {
+    padding: 0.2rem 0.3rem 0.8rem 0.3rem;
+  }
+  .about-desc {
+    font-size: 1.4rem;
+  }
+
+  .testimonials {
+    grid-template-columns: 1fr;
+  }
+  .gallery {
+    padding: 1rem;
+  }
+}
